@@ -1,0 +1,45 @@
+@import "tailwindcss";
+ @font-face {
+      font-family: "Montserrat";
+      src: url("./fonts/Montserrat-Italic-VariableFont_wght.ttf");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: "Funky";
+      src: url("./fonts/Funky Crack.ttf");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: "Aversa";
+      src: url("./fonts/Aversa Vectors.otf");
+      font-weight: normal;
+      font-style: normal;
+    }
+    @font-face {
+        font-family: "Raleway";
+        src: url("./fonts/Raleway-VariableFont_wght.ttf");
+        font-weight: 100 900;
+        font-style: normal;
+    }
+    @font-face{
+        font-family:"Raleway" ;
+        src: url("./fonts/Raleway-Italic-VariableFont_wght.ttf");
+        font-weight: 100 900;
+        font-style: italic;
+    }
+@theme {
+    --font-montserrat: "Montserrat", sans-serif;
+    --font-funcky:"Funcky",serif;
+    --font-aversa:"Aversa",serif;
+    --font-raleway:"Raleway",sans-serif;
+}
+
+@layer base {
+    body{
+        font-family: var(--font-raleway);
+    }
+}

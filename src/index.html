@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="./output.css" rel="stylesheet">
+  <title>Foodie.X</title>
+
+</head>
+
+<body class="bg-[#1a1a1a] text-white">
+
+  <header class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 md:px-14 py-5
+  backdrop-blur-xl bg-black/40 border-b border-white/10">
+
+    <h1 class="text-2xl font-extrabold tracking-widest  font-aversa">
+      FOODIE<span class="text-orange-400">.X</span>
+    </h1>
+
+    <nav class="hidden md:flex items-center gap-8 text-sm text-white/70 font-medium">
+
+      <a href="#home" class="relative group transition duration-300 hover:text-orange-400">
+        Home
+        <span
+          class="absolute left-0 -bottom-1 w-0 h-[2px] bg-orange-400 transition-all duration-300 group-hover:w-full"></span>
+      </a>
+      <a href="#features" class="relative group transition duration-300 hover:text-orange-400">
+        Features
+        <span
+          class="absolute left-0 -bottom-1 w-0 h-[2px] bg-orange-400 transition-all duration-300 group-hover:w-full"></span>
+      </a>
+      <a href="#menu" class="relative group transition duration-300 hover:text-orange-400">
+        Menu
+        <span
+          class="absolute left-0 -bottom-1 w-0 h-[2px] bg-orange-400 transition-all duration-300 group-hover:w-full"></span>
+      </a>
+    </nav>
+
+    <div class="flex gap-3">
+      <button class="cursor-pointer px-5 py-2 rounded-full border border-white/20 hover:scale-105 transition">
+        Sign In
+      </button>
+      <button class="cursor-pointer px-6 py-2 rounded-full bg-orange-500 font-semibold hover:scale-105 transition">
+        Get Started
+      </button>
+    </div>
+  </header>
+
+  <section id="home" class="relative min-h-screen flex items-center px-6 md:px-14 pt-32">
+
+    <div class="absolute inset-0 -z-10">
+      <img src="img/photo-1550547660-d9450f859349.jpg" class="w-full h-full object-cover opacity-50" />
+      <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/60"></div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-12 items-center w-full">
+
+      <div class="space-y-6 max-w-xl p-10">
+        <div class="flex gap-3">
+          <span class="inline-block bg-orange-500/10 border border-orange-400/30 
+        px-4 py-2 rounded-full text-orange-400 text-xs font-semibold backdrop-blur-md">
+            FAST </span>
+          <span class="inline-block bg-orange-500/10 border border-orange-400/30 
+        px-4 py-2 rounded-full text-orange-400 text-xs font-semibold backdrop-blur-md"> FRESH
+          </span>
+          <span class="inline-block bg-orange-500/10 border border-orange-400/30 
+        px-4 py-2 rounded-full text-orange-400 text-xs font-semibold backdrop-blur-md"> PREMIUM EXPERIENCE</span>
+        </div>
+
+        <h1 class="text-5xl md:text-6xl font-black leading-tight font-raleway">
+          Eat Better,<br> Feel Better
+        </h1>
+
+        <p class="text-white/80 leading-relaxed text-sm font-montserrat">
+          Discover a curated selection of freshly prepared meals updated in real-time.
+          From local favorites to international dishes, every plate is crafted with quality ingredients.
+          Experience food like never before — fast, visual, and always delicious.
+        </p>
+
+        <button class="cursor-pointer px-8 py-3 rounded-full bg-orange-500 font-semibold hover:scale-105 transition">
+          Order Now
+        </button>
+
+      </div>
+
+      <div class="flex justify-center">
+        <div id="heroImg" class="relative group"></div>
+      </div>
+
+    </div>
+  </section>
+  <section id="features" class="relative py-28 px-6 md:px-14 overflow-hidden">
+
+    <div class="absolute inset-0 bg-gradient-to-b from-orange-500/5 via-transparent to-black/40 pointer-events-none">
+    </div>
+    <div class="mb-16 max-w-md flex-col mx-auto">
+      <h2 class="text-center text-3xl md:text-4xl font-bold text-white relative">
+        Features
+      </h2>
+      <p class="text-white/50 text-center"> Prepared daily with carefully selected ingredients to ensure quality and
+        great taste</p>
+    </div>
+
+    <div class="relative grid md:grid-cols-3 gap-8">
+
+      <div class="group relative p-6 rounded-2xl
+                bg-white/5 border border-white/10
+                backdrop-blur-xl
+                transition-all duration-500 ease-out
+                 hover:bg-white/10">
+
+        <div
+          class="absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-orange-400/0 via-orange-400 to-orange-400/0 scale-x-0 group-hover:scale-x-100 transition-transform duration-500">
+        </div>
+
+        <div class="mb-6">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="text-orange-400">
+            <path d="M14 19V7a2 2 0 0 0-2-2H9" />
+            <path d="M15 19H9" />
+            <path d="M19 19h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62L18.3 9.38a1 1 0 0 0-.78-.38H14" />
+            <path d="M2 13v5a1 1 0 0 0 1 1h2" />
+            <path d="M4 3 2.15 5.15a.495.495 0 0 0 .35.86h2.15a.47.47 0 0 1 .35.86L3 9.02" />
+            <circle cx="17" cy="19" r="2" />
+            <circle cx="7" cy="19" r="2" />
+          </svg>
+        </div>
+        <div class="text-orange-400 text-lg font-semibold mb-2">
+          Fast Delivery
+        </div>
+        <div></div>
+        <p class="text-white/60 text-sm leading-relaxed">
+          Get your meals delivered quickly and fresh without delays.
+        </p>
+        <div
+          class="absolute -bottom-2 -right-2 w-20 h-20 bg-orange-400/10 rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition">
+        </div>
+      </div>
+      <div class="group relative p-6 rounded-2xl
+                bg-white/5 border border-white/10
+                backdrop-blur-xl
+                transition-all duration-500 ease-out
+                 hover:bg-white/10">
+        <div
+          class="absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-orange-400/0 via-orange-400 to-orange-400/0 scale-x-0 group-hover:scale-x-100 transition-transform duration-500">
+        </div>
+
+
+        <div class="mb-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="text-orange-400">
+            <path d="M2 12h20" />
+            <path d="M20 12v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8" />
+            <path d="m4 8 16-4" />
+            <path d="m8.86 6.78-.45-1.81a2 2 0 0 1 1.45-2.43l1.94-.48a2 2 0 0 1 2.43 1.46l.45 1.8" />
+          </svg></div>
+        <div class="text-orange-400 text-lg font-semibold mb-2">
+          Fresh Meals
+        </div>
+
+        <p class="text-white/60 text-sm leading-relaxed">
+          Cooked daily with fresh ingredients for maximum taste and quality.
+        </p>
+
+        <div
+          class="absolute -bottom-2 -right-2 w-20 h-20 bg-orange-400/10 rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition">
+        </div>
+
+      </div>
+
+      <div class="group relative p-6 rounded-2xl
+                bg-white/5 border border-white/10
+                backdrop-blur-xl
+                transition-all duration-500 ease-out
+                 hover:bg-white/10">
+
+        <div
+          class="absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-orange-400/0 via-orange-400 to-orange-400/0 scale-x-0 group-hover:scale-x-100 transition-transform duration-500">
+        </div>
+        <div class="mb-6">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="text-orange-400">
+            <path
+              d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z" />
+            <path d="M6 17h12" />
+          </svg>
+        </div>
+        <div class="text-orange-400 text-lg font-semibold mb-2">
+          Top Chefs
+        </div>
+
+        <p class="text-white/60 text-sm leading-relaxed">
+          Professional chefs crafting high-quality meals with care.
+        </p>
+
+        <div
+          class="absolute -bottom-2 -right-2 w-20 h-20 bg-orange-400/10 rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition">
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="w-full py-10">
+    <div class="my-6">
+      <h3 class="text-center font-semibold text-4xl text-white/90 max-w-2xl mx-auto leading-relaxed">Don’t miss out on
+        our <span class="text-orange-500">Braised Chicken Drumstick with Tomato Sauce</span>, now <span
+          class="bg-orange-400 p-2 rounded-lg">50%</span> off everywhere.</h3>
+    </div>
+    <div class="flex items-center rounded-xl p-4 gap-8 max-w-6xl mx-auto">
+      <div>
+        <img src="img/Untitled.png" class="w-130 rounded-2xl">
+        <div class="flex items-center gap-4 mt-6">
+          <span class="text-white border border-blue-300 rounded-full bg-blue-300/20 px-5 font-medium ">→ Savory and rich</span>
+          <span class="text-white border border-green-400 rounded-full  px-5 font-medium bg-green-400/20">→ Slow Braised</span>
+          <span class="text-white border border-red-400 rounded-full  px-5 font-medium bg-red-400/20">→ Juicy & Tender</span>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <p class="text-white/80 max-w-sm mx-auto">Our braised chicken drumstick is carefully cooked to achieve a juicy,
+          fall-off-the-bone texture, then
+          coated in a rich tomato sauce blended with aromatic herbs and spices. Every bite delivers a hearty, home-style
+          taste you’ll want to come back to.</p>
+        <button
+          class="cursor-pointer text-orange-300 rounded-full font-semibold px-6 py-2 bottom-0 border border-orange-300 mt-4 hover:text-orange-400 hover:border-orange-400">Claim
+          Offer</button>
+      </div>
+
+    </div>
+  </section>
+  <section id="menu" class="py-28 px-6 md:px-14 bg-[#1b1b1b]">
+    <div class=" mx-auto mb-14 text-center max-w-md">
+      <h2 class="text-center text-3xl font-bold ">Our Meals</h2>
+      <p class="text-white/50">Experience quality meals made daily by professionals using the freshest ingredients</p>
+    </div>
+    <div>
+      <h2 class="text-xl font-medium text-white/90">Pick Your Category</h2>
+    </div>
+    <div id="filterSection" class="gap-4 my-7 flex items-center"></div>
+    <div id="mealGrid" class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8"></div>
+  </section>
+
+  <section class="relative py-28 px-6 md:px-14 overflow-hidden bg-black text-white">
+    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-orange-500/5 pointer-events-none"></div>
+
+    <div class="text-center mb-14 relative z-10">
+      <h2 class="text-3xl font-bold">Trusted by Food Lovers</h2>
+      <p class="text-white/50">Thousands enjoy our meals daily</p>
+    </div>
+    <div class="grid md:grid-cols-4 gap-8 text-center relative z-10">
+      <div
+        class="border border-solid border-transparent hover:border-orange-300 ease-out transition-all duration-300 p-6 group rounded-xl cursor-pointer relative z-10">
+        <h3 class="text-4xl font-bold text-orange-400 group-hover:scale-110 transition-transform duration-300">10K+</h3>
+        <p class="text-white/60 text-sm">Customers</p>
+      </div>
+      <div
+        class="border border-solid border-transparent hover:border-orange-300 ease-out transition-all duration-300 p-6 group rounded-xl cursor-pointer relative z-10">
+        <h3 class="text-4xl font-bold text-orange-400 group-hover:scale-110 transition-transform duration-300">500+</h3>
+        <p class="text-white/60 text-sm">Meals Daily</p>
+      </div>
+      <div
+        class="border border-solid border-transparent hover:border-orange-300 ease-out transition-all duration-300 p-6 group rounded-xl cursor-pointer relative z-10">
+        <h3 class="text-4xl font-bold text-orange-400 group-hover:scale-110 transition-transform duration-300">50+</h3>
+        <p class="text-white/60 text-sm">Chefs</p>
+      </div>
+      <div
+        class="border border-solid border-transparent hover:border-orange-300 ease-out transition-all duration-300 p-6 group rounded-xl cursor-pointer relative z-10">
+        <h3 class="text-4xl font-bold text-orange-400 group-hover:scale-110 transition-transform duration-300">4.9★</h3>
+        <p class="text-white/60 text-sm">Rating</p>
+      </div>
+    </div>
+  </section>
+  <section class="relative px-6 py-20">
+    <div class="relative max-w-5xl mx-auto text-center rounded-3xl p-10">
+      <h2 class="text-3xl font-bold mb-4">
+        Enjoying your experience?
+      </h2>
+      <p class="text-white/60 max-w-2xl mx-auto mb-8">
+        If you’re satisfied with what you’ve seen, why not take the next step?
+        Discover our delicious meals and place your order in just a few clicks.
+      </p>
+      <div class="flex justify-center">
+        <button
+          class="cursor-pointer px-8 py-3 bg-orange-500 hover:bg-orange-600 transition-all duration-300 rounded-full font-semibold hover:scale-105">
+          Order Now
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t border-white/40 py-12 px-6 md:px-14 bg-black">
+
+    <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+
+      <div>
+        <h3 class="text-orange-400 font-bold">FOODIE.X</h3>
+        <p class="text-white/60 text-sm mt-2">
+          Premium food experience with live updates.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="font-semibold mb-3">Links</h4>
+        <ul class="space-y-2 text-white/60 text-sm">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#features">Features</a></li>
+        </ul>
+      </div>
+
+      <div class="space-y-1">
+        <h4 class="font-semibold mb-3">Contact</h4>
+        <p class="text-white/60 text-sm">supportUs@foodie.com</p>
+        <p class="text-white/60 text-sm">+237 653 290 305</p>
+      </div>
+
+    </div>
+
+    <div class="flex justify-center mt-10">
+      <p class="font-semibold text-white/50 text-center">
+        &copy; Foodie association 2026
+      </p>
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
