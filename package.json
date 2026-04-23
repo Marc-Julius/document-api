@@ -1,6 +1,10 @@
 {
   "scripts": {
+<<<<<<< HEAD
     "dev":"npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+=======
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+>>>>>>> ace26af5febf70546cde59393642698440de63d0
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.2.2",

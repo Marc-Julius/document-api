@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "tailwindcss";
  @font-face {
       font-family: "Montserrat";
@@ -43,3 +44,6 @@
         font-family: var(--font-raleway);
     }
 }
+=======
+@import "tailwindcss";
+>>>>>>> ace26af5febf70546cde59393642698440de63d0
